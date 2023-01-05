@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HOME</title>
+    <!-- <link rel="stylesheet" href=" "> -->
+    <style>
+        body {
+            background-image: url('src/960x0.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            background-attachment: fixed;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <!--<div class=""> <b>|| SHREE HARI: ||</b></div>-->
+        <!-- <img src="IMG.jpg" class="logo" alt="logo"> -->
+        <center><br><br>
+
+
+            <h1 class="heading">The Essence Of India</h1>
+            <img src="src/mandla-spiritual-pattern_53876-80467.jpg" alt="this is a image" height="25%" width="25%">
+        </center>
+        <!--<h5>WE BELIVE IN VALUE WORK WITH VALUED COST! </h5>-->
+    </header>
+
+
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+           <a href="GOA.html"> <img class="state_img"src="src\GOA.jpg" style="width:100%"> </a>
+            <div class="text">GOA</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <a href="madhya_pradesh.html"><img class="state_img" src="src\mp_final_photo.jpg" style="width:100%"></a>
+            <div class="text">Madhya Pradesh</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <a href="Maharashtra.html"><img class="state_img" src="src\Maha.jpg" style="width:100%"></a>
+            <div class="text">Maharashtra</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4/ 5</div>
+            <a href="Himachal_Pradesh.html"><img class="state_img" src="src\hpimg.jpg" style="width:100%"></a>
+            <div class="text">Himachal Pradesh</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <a href="TamilNadu.html"><img class="state_img" src="src\TamilNadu.jpg" style="width:100%"></a>
+            <div class="text">Tamil Nadu</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+    <!-- <main>
+            <section>
+
+                <hr>
+                <center>
+                    <img class="mp_imag" src="src/mp_final_photo.JPG" title="madhya pradesh " alt="This is an image">
+                </center>
+                <a href="madhya_pradesh.html">
+                    <h2 class="mp">Madhya Pradesh</h2>
+                </a>
+                <hr>
+            </section>
+
+            <section>
+                <center>
+                    <img class="him_imag" src="src/hpimg.jpg" title="himachal Pradesh" alt="This is an image">
+                </center>
+                <a href="Himachal_Pradesh.html">
+                    <h2 class="him">Himachal Pradesh</h2>
+                </a>
+                <hr>
+            </section>
+            <section>
+                <center>
+                    <img class="goa_imag" src="src/GOA.jpg" title="goa" alt="This is an image">
+                </center>
+                <a href="GOA.html">
+                    <h2 class="goa">Goa</h2>
+                </a>
+                <hr>
+            </section>
+            <section>
+                <center>
+                    <img class="Tam_imag" src="src/TamilNadu.jpg" title="himachal Pradesh" alt="This is an image">
+                </center>
+                <a href="TamilNadu.html">
+                    <h2 class="Tam">Tamil Nadu</h2>
+                </a>
+                <hr>
+            </section>
+            <section>
+                <center>
+                    <img class="Maha_imag" src="src/Maha.jpg" title="himachal Pradesh" alt="This is an image">
+                </center>
+                <a href="Maharashtra.html">
+                    <h2 class="Maha">Maharashtra</h2>
+                </a>
+                <hr>
+            </section>
+        </main> -->
+</body>
+
+</html>

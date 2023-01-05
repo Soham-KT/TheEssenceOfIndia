@@ -1,0 +1,249 @@
+.logo {
+    /* display:block ; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 12%;
+    border-radius: 50%;
+  }
+  .heading
+  {
+    margin: 0;
+font-size: 7.6em;
+  /* border: 3px solid green; */
+  padding: 0;
+    text-align: center;
+    color: white;
+    /* font-family: ; */
+  }
+
+
+
+
+
+
+
+
+
+ /* .mp_imag
+ {
+  
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 800px;
+ } */
+
+ .mp
+ {
+margin-top: 10px;
+  font-size: 4.9em;
+text-align: center;
+color: white;
+margin-bottom: 10px;
+ }
+
+
+ /* .him_imag
+ {
+  
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 800px;
+ } */
+
+ .him
+ {
+margin-top: 10px;
+  font-size: 4.9em;
+text-align: center;
+color: white;
+margin-bottom: 10px;
+ }
+ /* .goa_imag
+ {
+  
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 800px;
+ } */
+
+ .goa
+ {
+margin-top: 10px;
+  font-size: 4.9em;
+text-align: center;
+color: white;
+margin-bottom: 10px;
+ }
+ /* .Tam_imag
+ {
+  
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 800px;
+ } */
+
+ .Tam
+ {
+margin-top: 10px;
+  font-size: 4.9em;
+text-align: center;
+color: white;
+margin-bottom: 10px;
+ }
+ /* .Maha_imag
+ {
+  
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 800px;
+ } */
+
+ .Maha
+ {
+margin-top: 10px;
+  font-size: 4.9em;
+text-align: center;
+color:  white;
+margin-bottom: 10px;
+ }
+ 
+
+
+ /* page2 madhya pradesh */
+ .page2{
+
+margin-top: 5px;
+  font-size: 5em;
+      text-align: center;
+      color: white;
+
+ }
+
+ .art_img
+ {
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 800px;
+ }
+ 
+/* maharastra art warli desc   */
+.art_name
+{
+  color: white;
+}
+.art_desc
+{
+
+    color: white;   
+}
+
+
+*{box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  padding-top:30 ;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.state_img{
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 700px;
+  width: 800px;
+}
